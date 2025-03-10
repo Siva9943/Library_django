@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+.signup-container {
+	background-color: #f1f3f6;
+	width: 99%;
+	padding: 20px;
+	border-radius: 5px;
+	width: 300px;
+	text-align: left;
+	border: 2px solid green;
+}
+.signup-container h2 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.card{
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: block;
+}
+.card button{
+	margin-left: 33%;
+}
+.card{
+	border: 2px solid gray;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+form .sign:hover {
+    background-color: #e55b13;
+}
+form button:active{
+	transform: scale(0.98);
+}
+
+

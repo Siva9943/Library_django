@@ -1,0 +1,15 @@
+{% load static %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+<navbar class="nav" style="margin:10px">
+    <div class="left_menu">
+        <img src="{% static './img/logo.svg' %}" alt="e-commerce">
+        <div><i class="fa-solid fa-magnifying-glass search"></i> <input type="text" placeholder="      Search Products,Brands and More" class="in"></div>
+        
+    </div>
+    <div class="right_menu">
+        <a href="/"></a>
+        <a href="/signup"><button>SignUp</button></a>
+        <a href="/login"><button>Login</button></a>
+    </div>
+</navbar>

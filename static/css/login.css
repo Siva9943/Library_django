@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+form input{
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	margin: 10px 0px;
+	width: 300px;
+}
+.card2{
+	border: 2px solid gray;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+.card2 h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.card2 .login:hover {
+    background-color: #e55b13;
+}
+.login:active{
+	transform: scale(0.98);
+}
+

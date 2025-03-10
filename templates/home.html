@@ -1,0 +1,35 @@
+{% load static %}
+{% include 'navbar.html' %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    </head>
+    <body>
+        <div class="banner">
+            <img src="{%static './img/banner.webp'%}" alt="Banner">
+        </div>
+        <h1>Best of Electonics</h1>
+        <div class="products">
+            <div class="product-card">
+                <img src="{%static './img/ear.webp'%}" alt="Product">
+                <h3></h3>
+                <p>₹999</p>
+            </div>
+            <div class="product-card">
+                <img src="{%static './img/monitor.webp'%}" alt="Product">
+                <h3>Product 2</h3>
+                <p>₹12000</p>
+            </div>
+            <div class="product-card">
+                <img src="{%static './img/pro2.webp'%}" alt="Product">
+                <h3>Product 3</h3>
+                <p>₹1999</p>
+            </div>
+            <div class="product-card">
+                <img src="{%static './img/watch.webp'%}" alt="Product">
+                <h3>Product 4</h3>
+                <p>₹1,499</p>
+            </div>
+        </div>
+    </body>
+</html>
