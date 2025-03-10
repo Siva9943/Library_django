@@ -1,6 +1,6 @@
 {
     "builds":[{
-        "src":"front_back_task/wsgi.py",
+        "src":"manage.py",
         "use":"@vercel/python",
         "config":{"maxLambsaSize":"15mb","runtime":"python 3.13.2"}
 
@@ -8,7 +8,7 @@
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"front_back_task/wsgi.py"
+            "dest":"manage.py"
         }
     ]
 }
